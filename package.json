@@ -1,0 +1,23 @@
+{
+  "name": "stream-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaphid/stream-experiments.git"
+  },
+  "author": "redaphid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redaphid/stream-experiments/issues"
+  },
+  "homepage": "https://github.com/redaphid/stream-experiments#readme",
+  "dependencies": {
+    "mux-demux": "^3.7.9",
+    "through": "^2.3.8"
+  }
+}
