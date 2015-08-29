@@ -15,9 +15,10 @@ process.stdin.pipe LogStream2
 class RandomNode extends Readable
   constructor: ->
     # super objectMode: true
+    super()
   
   _read: () =>
-    @push Math.random()
+    @push Math.random() + ''
 
 
 
